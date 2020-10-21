@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+        myapp:
+                build:
+                        context: ./cn
+                env_file: .env
+
